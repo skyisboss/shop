@@ -1,0 +1,78 @@
+name: shopkeeper
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  flutter: 
+    sdk: flutter
+  
+  intl: ^0.17.0
+
+  # 路径
+  path: ^1.8.0
+
+  # 上下拉动刷新
+  pull_to_refresh: ^2.0.0
+  
+  # SQLite
+  sqflite: ^2.0.2
+
+  # 超长文本滚动
+  marquee_text: ^2.5.0+1
+
+  # 文件选中
+  file_picker: ^4.3.2
+  
+  # 拍照和选择图片
+  image_picker: ^0.8.4+11
+
+  #保存图片
+  image_gallery_saver: '^1.7.1'
+  #图片查看
+  photo_view: ^0.13.0
+  
+  #动态权限
+  permission_handler: ^9.2.0
+
+  #flutter 选择器库，包括日期及时间、单项选择、城市地址选择器、多项选择器等
+  flutter_pickers: ^2.1.9
+
+  # 滑动列表时让 sliverheader 吸顶 
+  flutter_sticky_header: ^0.6.1
+
+  # 文件访问系统
+  path_provider: ^2.0.9
+  # 振动（支持Web） https://github.com/benjamindean/flutter_vibration
+  vibration: ^1.7.4-nullsafety.0
+  # 扫码 https://github.com/juliuscanute/qr_code_scanner
+  qr_code_scanner: ^0.7.0
+  # Dart 常用工具类库 https://github.com/Sky24n/common_utils
+  common_utils: ^2.1.0
+  # Flutter 常用工具类库 https://github.com/Sky24n/flustars
+  flustars: ^2.0.1
+  # toast提示
+  flutter_easyloading: ^3.0.3
+
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/common/
+    - assets/images/report/
+    - assets/images/home/
+    - assets/images/finance/
+    - assets/images/logo/
+
